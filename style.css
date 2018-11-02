@@ -1,0 +1,287 @@
+/** Colors Schemes
+Light Red #eo474c
+Deep Red: #b11a21
+Fav Red: #C9142F
+Light Orange: #f3843e
+Blue Bean: #7acfd6
+Classy Grey: #f1f0ee
+**/
+
+/** Font-family: 'Raleway', sans-serif **/
+
+
+:root {
+    --lt-red: #e0474c;
+    --fv-red: #c9142f;
+    --dp-red: #b11a21;
+    --lt-org: #f3843e;
+    --bl-bean: #7acfd6;
+    --cl-grey: #f1f0ee; 
+    --dk-grey: #2b2b2b;
+}
+
+
+body {
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    width: 100%;    
+    margin: 0 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.colm{
+    float: left;
+    display: inline;
+    margin: 0 2.5%;
+}
+
+.row{ padding-bottom: 15px; }
+
+
+.colm.nlm{  margin-left: 0; }
+
+.colm.nrm{  margin-right: 0; }
+
+.colm.nsm{ margin: 0 0; }
+
+.one.colm   { width:   7.5%; }
+.two.colm   { width:  20.0%; }
+.three.colm { width:  32.5%; }
+.four.colm  { width:  45.0%; }
+.five.colm  { width:  57.5%; }
+.six.colm   { width:  70.0%; }
+.seven.colm { width:  82.5%; }
+.eight.colm { width:  95.0%; }
+
+.offset-one    { padding-left: 10.0%; }
+.offset-two    { padding-left: 20.0%; }
+.offset-three  { padding-left: 27.5%; }
+.offset-four   { padding-left: 40.0%; }
+.offset-five   { padding-left: 52.5%; }
+.offset-six    { padding-left: 65.0%; }
+.offset-seven  { padding-left: 77.5%; }
+
+
+.hd-container {
+    background: white;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    border-bottom: solid 1px #cccccc;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo{
+    max-width: 350px;
+}
+
+.hd_name {
+    float: left;
+}
+
+.nav_tcolor {
+    color: var(--dk-grey);
+    font-weight: 600
+}
+
+nav {
+    display: inline-block;
+    padding: 40px 0 0 0;}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 0 33%;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px; 
+    color: #2b2b2b; 
+    font-weight: 600;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+li a:hover {
+    background: var(--fv-red);
+    color: white;
+}
+
+.clear-fix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box {
+    display: inline-block;
+    position: absolute;
+    width: 44px;
+    background: var(--fv-red);
+    transform: rotate(90deg);
+    top: 15px;
+    left: 40px;
+    padding: 0 5px 0 50px ;
+
+}
+
+.logo_text{
+    display: inline-block;
+    font-size: 90px;
+    color: var(--fv-red);
+    font-weight: 900;
+    line-height: 1;
+    text-decoration: none;
+}
+
+h2.logo_text{
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+h3.logo_text{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+    color: white;
+}
+
+.hd_button{
+
+}
+
+section {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.content_wrapper{
+    position: absolute;
+    display: block;
+    width: 50%;
+    top: -13px;
+}
+.left_content{
+    left: 0;
+    background: var(--dp-red);
+}
+
+.right_content{
+    left: 50%;
+    background: var(--bl-bean);
+}
+
+.img_main {
+    filter: opacity(0.3);
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+aside {
+    float: right;
+    background: #ebebeb;
+    width: 415px;
+    margin: 0 auto;
+    height: inherit;
+    position: relative;
+}
+
+article {
+    color: #ebebeb;
+    margin: 0;
+    padding: 10px;
+
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--dk-grey);
+    background: none;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 35px; 
+}
+
+h2{
+    font-size: 30px; 
+}
+
+h3{
+    font-size: 25px; 
+}
+
+h4{
+    font-size: 18px; 
+}
+
+p{
+    font-size: 12px;
+}
+.asd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title_text {
+    float: left;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+.subtitle_text{
+    float: left;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Dynalight', cursive;
+    font-weight: 300;
+    
+}
+
+
+footer {
+    background: #ebebeb;
+    padding: 10px;
+}
